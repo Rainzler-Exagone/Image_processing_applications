@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #charger une image
-image = cv2.imread('barn.jpg')
+image = cv2.imread('<your_image>')
 
 # Converion en RGB pour affichage ave matplotlib
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
