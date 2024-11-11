@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
-image = cv2.imread('brain.jpg',0)
+image = cv2.imread('<your_image>',0)
 
 #add noise
 mean = 0
